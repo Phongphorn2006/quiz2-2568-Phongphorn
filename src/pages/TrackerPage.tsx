@@ -25,13 +25,20 @@ export default function FoodTracker() {
 
       <Divider my="md" />
       {/* Type additional total cost here. */}
+
       <Title order={4}>Total cost: {} Baht</Title>
+      <Title order={4}>Main Course: {} Baht</Title>
+      <Title order={4}>Drink: {} Baht</Title>
+      <Title order={4}>Dessert: {} Baht</Title>
       <Stack my="sm">{/* Type additional text here. */}</Stack>
 
       <Divider my="md" />
       {/* Type additional card here. */}
 
       <Stack>{/* Type additional food card list here. */}</Stack>
+      <Stack>
+
+      </Stack>
     </Container>
   );
 }

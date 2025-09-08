@@ -6,6 +6,7 @@ import {
   Select,
   Button,
   Stack,
+  Card,
 } from "@mantine/core";
 
 type AddFoodModalProps = {
@@ -31,7 +32,11 @@ export default function AddFoodModal({}: AddFoodModalProps) {
   let val_number: number = Number("500.0");
   console.log(val_number + 100); // 600.0
 
-  return {
+  return (
     /* Type additional text here. */
-  };
+    <Card></Card>
+
+  );
+
+
 }
